@@ -1,3 +1,6 @@
+# Time Complexity O(n)
+# Space Complexity O(n)
+
 def fibonacci_bottom_up(n) :
     if n <= 1:
         return n
