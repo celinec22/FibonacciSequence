@@ -4,9 +4,11 @@ from fibonacci_memo import fibonacci_memo
 from fibonacci_bottom_up import fibonacci_bottom_up
 from fibonacci_optimized import fibonacci_optimized
 from fibonacci_matrix import fibonacci_matrix
+from fibonacci_binet import fibonacci_binet
 
 def main():
-    n = 40
+    n = int(input("Enter the position (n) in the Fibonacci sequence you want to compute: "))
+
     start = time.time()
     print(f"Naive Recursive Fibonacci({n}): {fibonacci_naive(n)}")
     print(f"Naive Recursive Time: {time.time() - start:.5f} seconds")
@@ -26,6 +28,10 @@ def main():
     start = time.time()
     print(f"Matrix Fibonacci({n}): {fibonacci_matrix(n)}")
     print(f"Matrix Time: {time.time() - start:.5f} seconds")
+
+    start = time.time()
+    print(f"Binet's Formula Fibonacci({n}): {fibonacci_binet(n)}")
+    print(f"Binet's Formula: {time.time() - start:.5f} seconds")
 
 
 
