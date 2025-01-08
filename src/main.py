@@ -2,6 +2,7 @@ import time
 from fibonacci_naive import fibonacci_naive
 from fibonacci_memo import fibonacci_memo
 from fibonacci_bottom_up import fibonacci_bottom_up
+from fibonacci_optimized import fibonacci_optimized
 
 def main():
     n = 35
@@ -16,6 +17,13 @@ def main():
     start = time.time()
     print(f"Bottom-Up Fibonacci({n}): {fibonacci_bottom_up(n)}")
     print(f"Bottom-Up Time: {time.time() - start:.5f} seconds")
+
+    start = time.time()
+    print(f"Optimized Fibonacci({n}): {fibonacci_optimized(n)}")
+    print(f"Optimized Time: {time.time() - start:.5f} seconds")
+
+
+
 
 if __name__ == "__main__":
     main()
