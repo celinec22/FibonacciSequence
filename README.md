@@ -10,7 +10,7 @@ This project demonstrates various implementations of the Fibonacci sequence in P
     │   ├── fibonacci_bottom_up.py            
     │   ├── fibonacci_optimized.py         
     │   ├── fibonacci_matrix.py
-    │   ├── fibonacci_matrix.py  
+    │   ├── fibonacci_binet.py  
     │   ├──main.py 
     │
     └── 
