@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="054b28a6-5513-4bbd-a4ff-660c2e297464" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fibonacci_memo.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fibonacci_memo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fibonacci_bottom_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fibonacci_bottom_up.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
