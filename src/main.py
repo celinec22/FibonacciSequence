@@ -3,9 +3,10 @@ from fibonacci_naive import fibonacci_naive
 from fibonacci_memo import fibonacci_memo
 from fibonacci_bottom_up import fibonacci_bottom_up
 from fibonacci_optimized import fibonacci_optimized
+from fibonacci_matrix import fibonacci_matrix
 
 def main():
-    n = 35
+    n = 40
     start = time.time()
     print(f"Naive Recursive Fibonacci({n}): {fibonacci_naive(n)}")
     print(f"Naive Recursive Time: {time.time() - start:.5f} seconds")
@@ -21,6 +22,10 @@ def main():
     start = time.time()
     print(f"Optimized Fibonacci({n}): {fibonacci_optimized(n)}")
     print(f"Optimized Time: {time.time() - start:.5f} seconds")
+
+    start = time.time()
+    print(f"Matrix Fibonacci({n}): {fibonacci_matrix(n)}")
+    print(f"Matrix Time: {time.time() - start:.5f} seconds")
 
 
 
