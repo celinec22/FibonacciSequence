@@ -15,6 +15,27 @@ This project demonstrates various implementations of the Fibonacci sequence in P
     │
     └── 
 
+# To Run
+### Prerequisites
+
+* Python 3.7+
+* numpy library
+
+Install NumPy using pip if not already installed:
+
+```bash
+pip install numpy
+```
+### Steps to Run
+
+Navigate to the src directory:
+```bash
+cd src
+```
+Run the main script:
+```bash
+python main.py
+```
 
 
 
